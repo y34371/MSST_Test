@@ -55,9 +55,9 @@ void MSSTGpioConfig(void)
     GpioDataRegs.GPACLEAR.bit.GPIO11 = 1;
 
     GpioDataRegs.GPACLEAR.bit.GPIO12 = 1;
-    GpioDataRegs.GPASET.bit.GPIO13 = 1;
+    GpioDataRegs.GPACLEAR.bit.GPIO13 = 1;
     GpioDataRegs.GPACLEAR.bit.GPIO14 = 1;
-    GpioDataRegs.GPASET.bit.GPIO15 = 1;
+    GpioDataRegs.GPACLEAR.bit.GPIO15 = 1;
 
     GpioCtrlRegs.GPAGMUX2.bit.GPIO16 = 1;   // PWM9A -- Sync_output
     GpioCtrlRegs.GPAMUX2.bit.GPIO16 = 1;
